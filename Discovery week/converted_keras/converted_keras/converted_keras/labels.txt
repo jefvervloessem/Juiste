@@ -1,0 +1,21 @@
+0 bever
+1 bonobo
+2 chimpanzee
+3 dolfijn
+4 duif
+5 geit
+6 giraf
+7 goudvis
+8 hond
+9 kat
+10 leeuw
+11 luipaard
+12 mens
+13 nijlpaard
+14 orang oetan
+15 otter
+16 paard
+17 parkiet
+18 slang
+19 spin
+20 vos
