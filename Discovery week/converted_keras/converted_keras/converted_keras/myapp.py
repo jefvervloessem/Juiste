@@ -34,7 +34,7 @@ if method == 'Use Webcam':
     st.subheader("Webcam")
 
     # Create a VideoCapture object
-    video_capture = cv2.VideoCapture(0)
+    video_capture = st.camera_input("webcam")
 
     # Display webcam preview
     stframe = st.empty()
