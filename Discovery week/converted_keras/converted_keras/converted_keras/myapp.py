@@ -43,6 +43,11 @@ if method == 'Use Webcam':
     while True:
         _, frame = video_capture.read()
 
+        # Check if the frame is empty
+        if frame is None:
+            st.warning("Unable to capture video.")
+            break
+
         # Prepare the frame for the model
         frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         image = Image.fromarray(frame)
